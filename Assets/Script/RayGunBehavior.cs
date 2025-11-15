@@ -4,16 +4,22 @@ public class RayGunBehavior : MonoBehaviour
 {
     [SerializeField]
     private Transform muzzle;
-
     [SerializeField]
     private float maxRayDistance = 5f;
-
     [SerializeField]
     private LayerMask shootableLayer;
+    [SerializeField] 
+    private AudioSource gunAudio;
+    [SerializeField] 
+    private ParticleSystem particlePrefab;
+
+
 
     public void Shoot(){
-        Debug.Log("Je tire");
-        Debug.DrawRay(muzzle.position, muzzle.forward * maxRayDistance, Color.red, 1f);
+        gunAudio.Play();
+        ParticleSystem effect = Instantiate(particlePrefab, muzzle.position, muzzle.rotation);
+        effect.Play();
+        Destroy(effect.gameObject, effect.main.duration);
 
         if (!Physics.Raycast(
             muzzle.position,

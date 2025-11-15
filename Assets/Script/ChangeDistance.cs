@@ -9,6 +9,6 @@ public class ChangeDistance : MonoBehaviour
 
 
     private void OnTriggerEnter(Collider other){
-        _distanceTargetManager.ChangePosition(_distance);
+        if (other.CompareTag("Left Hand") || other.CompareTag("Right Hand")) _distanceTargetManager.ChangePosition(_distance);
     }
 }
