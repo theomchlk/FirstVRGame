@@ -54,8 +54,5 @@ Ce prototype se base sur plusieurs tutoriels trouvés sur YouTube, qui m’ont p
 
 ---
 
-## Comment lancer le projet
-
-1. Cloner le repository :  
-```bash
-git clone https://github.com/tonNomUtilisateur/VRTargetPractice.git
+## Musique
+[Musique d'ambiance libre de droit](https://pixabay.com/music/ambient-relaxing-peaceful-atmosphere-241586/)
