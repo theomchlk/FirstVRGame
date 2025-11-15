@@ -618,7 +618,7 @@ PrefabInstance:
     - target: {fileID: 687609720833522112, guid: 64987a69f22795e48aca0463f77fa21c, type: 3}
       propertyPath: m_StartingSelectedInteractable
       value: 
-      objectReference: {fileID: 2103677187}
+      objectReference: {fileID: 0}
     - target: {fileID: 6158619609897712867, guid: 64987a69f22795e48aca0463f77fa21c, type: 3}
       propertyPath: m_Name
       value: Pistol
@@ -701,9 +701,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9006705236095492109, guid: 64987a69f22795e48aca0463f77fa21c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1954018773}
-    - targetCorrespondingSourceObject: {fileID: 6870479076819924094, guid: 64987a69f22795e48aca0463f77fa21c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2103677186}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6158619609897712867, guid: 64987a69f22795e48aca0463f77fa21c, type: 3}
       insertIndex: -1
@@ -3704,6 +3701,7 @@ GameObject:
   - component: {fileID: 1193306393}
   - component: {fileID: 1193306395}
   - component: {fileID: 1193306394}
+  - component: {fileID: 1193306396}
   m_Layer: 0
   m_Name: 'Right Direct Interactor '
   m_TagString: Untagged
@@ -3884,6 +3882,33 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
+--- !u!54 &1193306396
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193306392}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1209111374
 GameObject:
   m_ObjectHideFlags: 0
@@ -5084,11 +5109,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &1569432850 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6870479076819924094, guid: 64987a69f22795e48aca0463f77fa21c, type: 3}
-  m_PrefabInstance: {fileID: 267981069}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1589959365
 GameObject:
   m_ObjectHideFlags: 0
@@ -5807,6 +5827,7 @@ GameObject:
   - component: {fileID: 1823362212}
   - component: {fileID: 1823362214}
   - component: {fileID: 1823362213}
+  - component: {fileID: 1823362215}
   m_Layer: 0
   m_Name: Left Direct Interactor
   m_TagString: Untagged
@@ -5987,6 +6008,33 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
+--- !u!54 &1823362215
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823362211}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1846762103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6554,83 +6602,6 @@ MonoBehaviour:
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: 0
---- !u!4 &2103677186 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-  m_PrefabInstance: {fileID: 2103937291}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2103677187 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 545745247825490477, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-  m_PrefabInstance: {fileID: 2103937291}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
---- !u!1001 &2103937291
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1569432850}
-    m_Modifications:
-    - target: {fileID: 545745247825490477, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_InteractionLayers.m_Bits
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6411883368147651093, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_Name
-      value: Magazine_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6903179760942535565, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ad78fb985f9690d48abbe2caa7233c35, type: 3}
 --- !u!1001 &2114512042
 PrefabInstance:
   m_ObjectHideFlags: 0
