@@ -54,8 +54,7 @@ Ce prototype se base sur plusieurs tutoriels trouvés sur YouTube, qui m’ont p
 
 ---
 
-## Comment lancer le projet
+## Musique / Son
+[Musique d'ambiance libre de droit](https://pixabay.com/music/ambient-relaxing-peaceful-atmosphere-241586/)
+[Son du pistol](https://pixabay.com/sound-effects/9mm-pistol-shot-6349/)
 
-1. Cloner le repository :  
-```bash
-git clone https://github.com/tonNomUtilisateur/VRTargetPractice.git
