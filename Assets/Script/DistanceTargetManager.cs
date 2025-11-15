@@ -7,7 +7,7 @@ public class DistanceTargetManager : MonoBehaviour
     private CercleManager cercle;
 
     [SerializeField]
-    private TMP_Text _distanceDisplay;
+    private TMP_Text _distanceText;
 
     public void Start(){
         ChangePosition(cercle.Distance);
@@ -15,7 +15,8 @@ public class DistanceTargetManager : MonoBehaviour
 
     public void ChangePosition(int distance){
         cercle.ChangePosition(distance);
-        _distanceDisplay.text = cercle.Distance + "m";
+        if (cercle.increaseInNegative) _distanceText.text = -cercle.Distance + "m";
+        else _distanceText.text = cercle.Distance + "m";
     }
 
 }

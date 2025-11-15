@@ -6,9 +6,9 @@ public class TargetManager : MonoBehaviour
     [SerializeField]
     private TargetBehavior[] targets;
     [SerializeField]
-    private TMP_Text _scoreDisplay;
+    private TMP_Text _scoreText;
     [SerializeField]
-    private TMP_Text _hitDisplay;
+    private TMP_Text _hitText;
 
 
 
@@ -28,14 +28,14 @@ public class TargetManager : MonoBehaviour
 
     private void AddScore(int score){
         _score += score;
-        _scoreDisplay.text = "" +_score;
-        _hitDisplay.text = "hit :" + score;
+        _scoreText.text = "" +_score;
+        _hitText.text = "hit :" + score;
     }
 
     public void ResetScore(){
         _score = 0;
-        _scoreDisplay.text = "" + _score;
-        _hitDisplay.text = "hit :";
+        _scoreText.text = "" + _score;
+        _hitText.text = "hit :";
     }
 
 }
