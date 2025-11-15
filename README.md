@@ -1,5 +1,5 @@
-[Lien de la vidéo de présentation de mon prototype](https://www.youtube.com/watch?v=Gp3r7CpnVnw)
-[Lien du drive contenant le build de mon prototype](https://drive.google.com/drive/folders/1ZtsPb0Et0DKWl7xb3gm2GnDiiLSYkWoH?usp=sharing)
+- [Lien de la vidéo de présentation de mon prototype](https://www.youtube.com/watch?v=Gp3r7CpnVnw)
+- [Lien du drive contenant le build de mon prototype](https://drive.google.com/drive/folders/1ZtsPb0Et0DKWl7xb3gm2GnDiiLSYkWoH?usp=sharing)
 
 # FirstVRGame
 
