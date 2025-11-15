@@ -29,7 +29,7 @@ public class TargetManager : MonoBehaviour
     private void AddScore(int score){
         _score += score;
         _scoreDisplay.text = "" +_score;
-        _hitDisplay.text = "" + score;
+        _hitDisplay.text = "hit :" + score;
     }
 
     public void ResetScore(){
